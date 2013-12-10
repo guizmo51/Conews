@@ -1,0 +1,830 @@
+<!--?xml version="1.0" encoding="ISO-8859-1" ?--><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /> 
+  <meta http-equiv="Pragma" content="no-cache" /> 
+  <meta http-equiv="Cache-Control" content="no-cache, must-revalidate" /> 
+  <meta http-equiv="Expires" content="0" /> 
+  <meta name="Robots" content="index, follow" /> 
+  <style type="text/css">
+.menumessage
+{
+width:20;text-align:center;border-left: 1px #000099 solid;border-top: 1px #000099 solid;border-bottom: 1px #000099 solid
+}
+
+.petit
+{
+font-size:8pt
+}
+.admins
+{
+font-family:Verdana;font-size:8pt;color:#CCD4EC
+}
+.headers
+{
+font-family:Verdana;font-size:10pt;color:#FFFFFF
+}
+.headers_link
+{
+font-family:Verdana;color:#FFFFFF;text-decoration:underline
+}
+.titres
+{
+font-weight: bold;
+text-align:center;
+border: 1px #FFFFFF solid;
+background-color:#FFFFFF;
+font-size:8pt
+}
+.box
+{
+border: 1px #034E74 solid;
+background-color:#C2DCF5;
+font-family:Verdana;
+color:#000066
+}
+.btn
+{
+border: 1px #034E74 solid;
+background-color:#C2DCF5;
+font-family:Verdana;
+color:#000066
+}
+.legend
+{
+font-weight: bold;font-size:8pt;text-align:left
+}
+
+.master
+{
+font-size:10pt; color:#000066
+}
+.tablo
+{
+font-size:10pt; color:#000066;border: 1px #034E74 solid
+}
+.copyright
+{
+font-family:Verdana;font-size:8pt;color:#000066;text-align:center
+}
+.colonne1
+{
+border: 1px #FFFFFF solid;
+background-color:#C2DCF5;
+}
+
+.colonne2
+{
+border: 1px #FFFFFF solid;
+background-color:#94BEED;
+}
+
+A
+{
+COLOR: #122B45; TEXT-DECORATION: none
+}
+
+A:hover
+{
+TEXT-DECORATION: underline
+}
+
+BODY
+{
+scrollbar-face-color: #C2DCF5;
+scrollbar-shadow-color: #000066;
+scrollbar-highlight-color: #122B45;
+scrollbar-3dlight-color: #FFFFFF;
+scrollbar-darkshadow-color: #000066;
+scrollbar-track-color: #2B69A8;
+scrollbar-arrow-color: #000066;
+font-size: 10pt; color: #000066; font-family: Verdana, Arial, Helvetica, sans-serif
+}
+
+
+</style> 
+  <title>Annonces de course </title> 
+  <noscript> 
+  </noscript> 
+ </head> 
+ <body style="background-color:#2B69A8;margin-top:0;padding-top:0"> 
+  <a href="/web/20090602011340/http://www.aceboard.fr/forum.phtml">FORUM</a>, 
+  <a href="/web/20090602011340/http://www.aceboard.fr/forum-discussion.phtml">Forum Discussion</a>, 
+  <a href="/web/20090602011340/http://www.aceboard.fr/forum-gratuit.phtml">Forum Gratuit</a>, 
+  <a href="/web/20090602011340/http://www.xdir.fr/">Nom de domaine</a>, 
+  <a href="/web/20090602011340/http://www.xdir.fr/">Nom de domaine gratuit</a>, 
+  <a href="/web/20090602011340/http://www.xdir.fr/gratuit.php">Redirection gratuite</a>, 
+  <meta name="keywords" content="Annonces de course Forum forum CO-news" /> 
+  <meta name="description" content="Annonces de course Forum forum CO-news" /> 
+  <!-- BEGIN WAYBACK TOOLBAR INSERT --> 
+  <script type="text/javascript" src="/static/js/disclaim-element.js"></script> 
+  <script type="text/javascript" src="/static/js/graph-calc.js"></script> 
+  <script type="text/javascript" src="/static/jflot/jquery.min.js"></script> 
+  <script type="text/javascript">
+//<![CDATA[
+var firstDate = 820454400000;
+var lastDate = 1388534399999;
+var wbPrefix = "/web/";
+var wbCurrentUrl = "http:\/\/forum.aceboard.net\/29408-2702-2-Annonces-course.htm";
+
+var curYear = -1;
+var curMonth = -1;
+var yearCount = 18;
+var firstYear = 1996;
+var imgWidth = 450;
+var yearImgWidth = 25;
+var monthImgWidth = 2;
+var trackerVal = "none";
+var displayDay = "2";
+var displayMonth = "Jun";
+var displayYear = "2009";
+var prettyMonths = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+function showTrackers(val) {
+	if(val == trackerVal) {
+		return;
+	}
+	if(val == "inline") {
+		document.getElementById("displayYearEl").style.color = "#ec008c";
+		document.getElementById("displayMonthEl").style.color = "#ec008c";
+		document.getElementById("displayDayEl").style.color = "#ec008c";		
+	} else {
+		document.getElementById("displayYearEl").innerHTML = displayYear;
+		document.getElementById("displayYearEl").style.color = "#ff0";
+		document.getElementById("displayMonthEl").innerHTML = displayMonth;
+		document.getElementById("displayMonthEl").style.color = "#ff0";
+		document.getElementById("displayDayEl").innerHTML = displayDay;
+		document.getElementById("displayDayEl").style.color = "#ff0";
+	}
+   document.getElementById("wbMouseTrackYearImg").style.display = val;
+   document.getElementById("wbMouseTrackMonthImg").style.display = val;
+   trackerVal = val;
+}
+function getElementX2(obj) {
+	var thing = jQuery(obj);
+	if((thing == undefined) 
+			|| (typeof thing == "undefined") 
+			|| (typeof thing.offset == "undefined")) {
+		return getElementX(obj);
+	}
+	return Math.round(thing.offset().left);
+}
+function trackMouseMove(event,element) {
+
+   var eventX = getEventX(event);
+   var elementX = getElementX2(element);
+   var xOff = eventX - elementX;
+	if(xOff < 0) {
+		xOff = 0;
+	} else if(xOff > imgWidth) {
+		xOff = imgWidth;
+	}
+   var monthOff = xOff % yearImgWidth;
+
+   var year = Math.floor(xOff / yearImgWidth);
+	var yearStart = year * yearImgWidth;
+   var monthOfYear = Math.floor(monthOff / monthImgWidth);
+   if(monthOfYear > 11) {
+       monthOfYear = 11;
+   }
+   // 1 extra border pixel at the left edge of the year:
+   var month = (year * 12) + monthOfYear;
+   var day = 1;
+	if(monthOff % 2 == 1) {
+		day = 15;
+	}
+	var dateString = 
+		zeroPad(year + firstYear) + 
+		zeroPad(monthOfYear+1,2) +
+		zeroPad(day,2) + "000000";
+
+	var monthString = prettyMonths[monthOfYear];
+	document.getElementById("displayYearEl").innerHTML = year + 1996;
+	document.getElementById("displayMonthEl").innerHTML = monthString;
+	// looks too jarring when it changes..
+	//document.getElementById("displayDayEl").innerHTML = zeroPad(day,2);
+
+	var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
+	document.getElementById('wm-graph-anchor').href = url;
+
+   //document.getElementById("wmtbURL").value="evX("+eventX+") elX("+elementX+") xO("+xOff+") y("+year+") m("+month+") monthOff("+monthOff+") DS("+dateString+") Moy("+monthOfYear+") ms("+monthString+")";
+   if(curYear != year) {
+       var yrOff = year * yearImgWidth;
+       document.getElementById("wbMouseTrackYearImg").style.left = yrOff + "px";
+       curYear = year;
+   }
+   if(curMonth != month) {
+       var mtOff = year + (month * monthImgWidth) + 1;
+       document.getElementById("wbMouseTrackMonthImg").style.left = mtOff + "px";
+       curMonth = month;
+   }
+}
+//]]>
+</script> 
+  <style type="text/css">body{margin-top:0!important;padding-top:0!important;min-width:800px!important;}#wm-ipp a:hover{text-decoration:underline!important;}</style> 
+  <div id="wm-ipp" style="display:none; position:relative;padding:0 5px;min-height:70px;min-width:800px; z-index:9000;"> 
+   <div id="wm-ipp-inside" style="position:fixed;padding:0!important;margin:0!important;width:97%;min-width:780px;border:5px solid #000;border-top:none;background-image:url(/static/images/toolbar/wm_tb_bk_trns.png);text-align:center;-moz-box-shadow:1px 1px 3px #333;-webkit-box-shadow:1px 1px 3px #333;box-shadow:1px 1px 3px #333;font-size:11px!important;font-family:'Lucida Grande','Arial',sans-serif!important;"> 
+    <table style="border-collapse:collapse;margin:0;padding:0;width:100%;"> 
+     <tbody> 
+      <tr> 
+       <td style="padding:10px;vertical-align:top;min-width:110px;"> <a href="/web/" title="Wayback Machine home page" style="background-color:transparent;border:none;"><img src="img/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0" /></a> </td> 
+       <td style="padding:0!important;text-align:center;vertical-align:top;width:100%;"> 
+        <table style="border-collapse:collapse;margin:0 auto;padding:0;width:570px;"> 
+         <tbody> 
+          <tr> 
+           <td style="padding:3px 0;" colspan="2"> 
+            <form target="_top" method="get" action="/web/form-submit.jsp" name="wmtb" id="wmtb" style="margin:0!important;padding:0!important;"> 
+             <input type="text" name="url" id="wmtbURL" value="http://forum.aceboard.net/29408-2702-2-Annonces-course.htm" style="width:400px;font-size:11px;font-family:'Lucida Grande','Arial',sans-serif;" onfocus="javascript:this.focus();this.select();" /> 
+             <input type="hidden" name="type" value="replay" /> 
+             <input type="hidden" name="date" value="20090602011340" /> 
+             <input type="submit" value="Go" style="font-size:11px;font-family:'Lucida Grande','Arial',sans-serif;margin-left:5px;" /> 
+             <span id="wm_tb_options" style="display:block;"></span> 
+            </form> </td> 
+           <td style="vertical-align:bottom;padding:5px 0 0 0!important;" rowspan="2"> 
+            <table style="border-collapse:collapse;width:110px;color:#99a;font-family:'Helvetica','Lucida Grande','Arial',sans-serif;"> 
+             <tbody> 
+              <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR --> 
+              <tr style="width:110px;height:16px;font-size:10px!important;"> 
+               <td style="padding-right:9px;font-size:11px!important;font-weight:bold;text-transform:uppercase;text-align:right;white-space:nowrap;overflow:visible;" nowrap="nowrap"> <a href="29408-2702-2-Annonces-course.htm" style="text-decoration:none;color:#33f;font-weight:bold;background-color:transparent;border:none;" title="2 Apr 2009"><strong>APR</strong></a> </td> 
+               <td id="displayMonthEl" style="background:#000;color:#ff0;font-size:11px!important;font-weight:bold;text-transform:uppercase;width:34px;height:15px;padding-top:1px;text-align:center;" title="You are here: 1:13:40 Jun 2, 2009">JUN</td> 
+               <td style="padding-left:9px;font-size:11px!important;font-weight:bold;text-transform:uppercase;white-space:nowrap;overflow:visible;" nowrap="nowrap"> Jul </td> 
+              </tr> 
+              <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR --> 
+              <tr> 
+               <td style="padding-right:9px;white-space:nowrap;overflow:visible;text-align:right!important;vertical-align:middle!important;" nowrap="nowrap"> <a href="29408-2702-2-Annonces-course.htm" title="2:22:56 Apr 2, 2009" style="background-color:transparent;border:none;"><img src="img/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a> </td> 
+               <td id="displayDayEl" style="background:#000;color:#ff0;width:34px;height:24px;padding:2px 0 0 0;text-align:center;font-size:24px;font-weight: bold;" title="You are here: 1:13:40 Jun 2, 2009">2</td> 
+               <td style="padding-left:9px;white-space:nowrap;overflow:visible;text-align:left!important;vertical-align:middle!important;" nowrap="nowrap"> <img src="img/wm_tb_nxt_off.png" alt="Next capture" width="14" height="16" border="0" /> </td> 
+              </tr> 
+              <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR --> 
+              <tr style="width:110px;height:13px;font-size:9px!important;"> 
+               <td style="padding-right:9px;font-size:11px!important;font-weight: bold;text-align:right;white-space:nowrap;overflow:visible;" nowrap="nowrap"> <a href="29408-2702-2-Annonces-course.htm" style="text-decoration:none;color:#33f;font-weight:bold;background-color:transparent;border:none;" title="4 May 2008"><strong>2008</strong></a> </td> 
+               <td id="displayYearEl" style="background:#000;color:#ff0;font-size:11px!important;font-weight: bold;padding-top:1px;width:34px;height:13px;text-align:center;" title="You are here: 1:13:40 Jun 2, 2009">2009</td> 
+               <td style="padding-left:9px;font-size:11px!important;font-weight: bold;white-space:nowrap;overflow:visible;" nowrap="nowrap"> 2010 </td> 
+              </tr> 
+             </tbody> 
+            </table> </td> 
+          </tr> 
+          <tr> 
+           <td style="vertical-align:middle;padding:0!important;"> <a href="29408-2702-2-Annonces-course.htm" style="color:#33f;font-size:11px;font-weight:bold;background-color:transparent;border:none;" title="See a list of every capture for this URL"><strong>4 captures</strong></a> 
+            <div style="margin:0!important;padding:0!important;color:#666;font-size:9px;padding-top:2px!important;white-space:nowrap;" title="Timespan for captures of this URL">
+              4 May 08 - 2 Jun 09 
+            </div> </td> 
+           <td style="padding:0!important;"> <a style="position:relative; white-space:nowrap; width:450px;height:27px;" href="" id="wm-graph-anchor"> 
+             <div id="wm-ipp-sparkline" style="position:relative; white-space:nowrap; width:450px;height:27px;background-color:#fff;cursor:pointer;border-right:1px solid #ccc;" title="Explore captures for this URL"> 
+              <img id="sparklineImgId" style="position:absolute; z-index:9012; top:0px; left:0px;" onmouseover="showTrackers('inline');" onmouseout="showTrackers('none');" onmousemove="trackMouseMove(event,this)" alt="sparklines" width="450" height="27" border="0" src="img/graph.jsp?graphdata=450_27_1996:-1:000000000000_1997:-1:000000000000_1998:-1:000000000000_1999:-1:000000000000_2000:-1:000000000000_2001:-1:000000000000_2002:-1:000000000000_2003:-1:000000000000_2004:-1:000000000000_2005:-1:000000000000_2006:-1:000000000000_2007:-1:000000000000_2008:-1:000010000000_2009:5:100101000000_2010:-1:000000000000_2011:-1:000000000000_2012:-1:000000000000_2013:-1:000000000000" /> 
+              <img id="wbMouseTrackYearImg" style="display:none; position:absolute; z-index:9010;" width="25" height="27" border="0" src="img/transp-yellow-pixel.png" /> 
+              <img id="wbMouseTrackMonthImg" style="display:none; position:absolute; z-index:9011; " width="2" height="27" border="0" src="img/transp-red-pixel.png" /> 
+             </div> </a> </td> 
+          </tr> 
+         </tbody> 
+        </table> </td> 
+       <td style="text-align:right;padding:5px;width:65px;font-size:11px!important;"> <a href="javascript:;" onclick="document.getElementById('wm-ipp').style.display='none';" style="display:block;padding-right:18px;background:url(/static/images/toolbar/wm_tb_close.png) no-repeat 100% 0;color:#33f;font-family:'Lucida Grande','Arial',sans-serif;margin-bottom:23px;background-color:transparent;border:none;" title="Close the toolbar">Close</a> <a href="http://faq.web.archive.org/" style="display:block;padding-right:18px;background:url(/static/images/toolbar/wm_tb_help.png) no-repeat 100% 0;color:#33f;font-family:'Lucida Grande','Arial',sans-serif;background-color:transparent;border:none;" title="Get some help using the Wayback Machine">Help</a> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+   </div> 
+  </div> 
+  <script type="text/javascript">
+ var wmDisclaimBanner = document.getElementById("wm-ipp");
+ if(wmDisclaimBanner != null) {
+   disclaimElement(wmDisclaimBanner);
+ }
+</script> 
+  <!-- END WAYBACK TOOLBAR INSERT --> 
+  <script src="/web/20090602011340js_/http://forum.aceboard.net/infobul.php?langue=fr" type="text/javascript"></script> 
+  <script type="text/javascript">
+function creercookie()
+{
+var Nom = "tpub";
+var Contenu="a";
+var expdate = new Date ();
+expdate.setTime (expdate.getTime() + (21600000)) ;
+document.cookie = Nom + "=" + Contenu + "; expires=" + expdate.toGMTString();
+}
+function creercookie2()
+{
+var Nom = "tpub2";
+var Contenu="a2";
+var expdate = new Date ();
+expdate.setTime (expdate.getTime() + (21600000)) ;
+document.cookie = Nom + "=" + Contenu + "; expires=" + expdate.toGMTString();
+}
+</script> 
+  <br /> 
+  <br /> 
+  <div style="text-align:center"> 
+   <table style="width:100%" cellspacing="0" cellpadding="0"> 
+    <tbody> 
+     <tr> 
+      <td style="width:10%" valign="bottom" align="left"></td> 
+      <td valign="bottom" align="left" style="width:40%"> <a href="index.php?login=29408" target="_parent"><img src="img/bando2.gif" style="border:0" alt="Forum forum CO-news" /></a></td> 
+      <td valign="bottom" align="right" style="width:50%" class="admins"> <b>Administrateurs :</b>tam </td> 
+     </tr> 
+     <tr class="headers"> 
+      <td style="background-color:#02417E;width:10%;vertical-align:middle" align="left"><img src="img/transp.gif" width="1" height="28" alt="" /></td> 
+      <td style="background-color:#02417E;width:32%;vertical-align:middle"><b><a href="index.php?login=29408" target="_parent"><span class="headers_link">Forum</span></a> <a href="29408-2702-2-Annonces-course.htm#" onclick="window.open('/web/20090602011340/http://forum.aceboard.net/index.php?login=29408','site_forum')"><span class="headers_link">forum CO-news</span></a></b></td> 
+      <td style="background-color:#02417E;width:44%"> 
+       <div style="text-align:right" class="petit">
+         Non connect&eacute; | 
+        <a href="connexion.php?login=29408" target="_parent"><span class="headers_link">Se connecter</span></a> 
+       </div> </td> 
+     </tr> 
+     <tr class="headers"> 
+      <td style="background-color:#02417E"><img src="img/transp.gif" width="1" height="36" alt="" /></td> 
+      <td colspan="2" style="background-color:#02417E" class="petit"> <b>en ligne : </b>4 inconnus visitent le forum </td> 
+     </tr> 
+     <tr> 
+      <td colspan="3" align="center" class="petit"> <a href="inscription.php?login=29408" target="_parent"><img src="img/book-over.gif" style="border:0" alt="Inscription" /> Inscription</a> | <a href="modifprofil.php?login=29408" target="_parent"><img src="img/face-over.gif" style="border:0" alt="Profil" /> Profil</a> | <a href="voirmesspriv.php?login=29408" target="_parent"><img src="img/busta-over.gif" style="border:0" alt="Messages Priv&eacute;s" /> Messages Priv&eacute;s</a> | <a href="recherche.php?login=29408" target="_parent"><img src="img/loupe-over.gif" style="border:0" alt="Recherche" /> Recherche</a> | <a href="onlines.php?login=29408&amp;modeoaff=2" target="_parent"><img src="img/planete-over.gif" style="border:0" alt="Online" /> Online</a> | <a href="faq.php?login=29408" target="_parent"><img src="img/FAQ.gif" style="border:0" alt="Aide" /> Aide</a> | <a href="/web/20090602011340/http://www.aceblog.fr/?from=AB" target="_parent">Cr&eacute;er un blog gratuit</a></td> 
+     </tr> 
+     <tr align="center"> 
+      <td colspan="3" style="background-color:02417E;height=2"><img src="img/space.gif" style="border:0;width=2;height=2" alt="" /></td> 
+     </tr> 
+    </tbody> 
+   </table> 
+   <div style="text-align:center"> 
+    <div style="text-align:center"> 
+     <table width="95%" border="0" cellspacing="0" cellpadding="15"> 
+      <tbody> 
+       <tr align="center"> 
+        <td> <script type="text/javascript">
+<!--
+google_ad_client = "pub-5770188140939770";
+google_alternate_ad_url = "http://ns1.aceboard.net/ban.html";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_language = "fr";
+google_ad_channel ="3761205058";
+google_color_border = "2B69A8";
+google_color_bg = "2B69A8";
+google_color_link = "122B45";
+google_color_url = "122B45";
+google_color_text = "122B45";
+//-->
+</script> <script type="text/javascript" src="/web/20090602011340js_/http://pagead2.googlesyndication.com/pagead/show_ads.js"></script> <script type="text/javascript"><!--
+google_ad_client = "pub-5770188140939770";
+google_ad_width = 728;
+google_ad_height = 15;
+google_ad_format = "728x15_0ads_al";
+google_ad_channel = "5267221064";
+google_color_border = "2B69A8";
+google_color_bg = "2B69A8";
+google_color_link = "122B45";
+google_color_url = "122B45";
+google_color_text = "122B45";
+//-->
+</script> <script type="text/javascript" src="/web/20090602011340js_/http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script> </td> 
+       </tr> 
+      </tbody> 
+     </table> 
+    </div> 
+    <table style="width:100%" cellspacing="0" cellpadding="0"> 
+     <tbody> 
+      <tr> 
+       <td valign="bottom"> 
+        <table cellspacing="0" cellpadding="0"> 
+         <tbody> 
+          <tr class="petit"> 
+           <td valign="bottom" style="border-bottom: groove #000099 1px;border-left: groove #000099 1px;border-top: groove #000099 1px;width:200;background-color:#CCD4EC"><b><img src="img/histicon.gif" alt="forum" /> <a href="i-29408.htm" target="_parent">Index du forum</a></b></td> 
+           <td style="border-bottom: groove #000099 1px;border-right: groove #000099 1px;border-top: groove #000099 1px;width:200;background-color:#CCD4EC"><img src="img/histicon.gif" alt="forum" /> <a href="29408-2702-0-Annonces-course.htm" target="_parent"><b>Annonces de course</b></a> <a href="forum1.php?login=29408&amp;rub=2702&amp;star=1" target="_parent"><img src="img/partpic.gif" border="0" /></a></td> 
+          </tr> 
+         </tbody> 
+        </table> </td> 
+       <td align="right" style="width:1"> <a href="nouveaupost.php?rub=2702&amp;login=29408" target="_parent"><img src="img/bouton_nv-sujet.gif" style="border:0" alt="Nouveau Sujet" /> </a> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <br /> 
+    <div class="petit" style="text-align:left"> 
+     <b>Pages :</b> 
+     <a href="29408-2702-0-Annonces-course.htm" target="_parent">1</a> 
+     <a href="29408-2702-1-Annonces-course.htm" target="_parent">2</a> 
+     <b>3</b> 
+     <a href="29408-2702-3-Annonces-course.htm" target="_parent">4</a> 
+     <a href="29408-2702-4-Annonces-course.htm" target="_parent">5</a> 
+     <a href="29408-2702-5-Annonces-course.htm" target="_parent">6</a> 
+     <a href="29408-2702-6-Annonces-course.htm" target="_parent">7</a> 
+     <a href="29408-2702-7-Annonces-course.htm" target="_parent">8</a> 
+     <a href="29408-2702-8-Annonces-course.htm" target="_parent">9</a> 
+     <a href="29408-2702-9-Annonces-course.htm" target="_parent">10</a> 
+     <a href="29408-2702-10-Annonces-course.htm" target="_parent">11</a> 
+     <a href="29408-2702-11-Annonces-course.htm" target="_parent">12</a> 
+     <a href="29408-2702-12-Annonces-course.htm" target="_parent">13</a> 
+     <a href="29408-2702-13-Annonces-course.htm" target="_parent">14</a> 
+     <a href="29408-2702-14-Annonces-course.htm" target="_parent">15</a> 
+    </div> 
+    <table style="width:100%;border: 2px #034E74 solid" cellspacing="0" cellpadding="0"> 
+     <tbody> 
+      <tr> 
+       <td> 
+        <table style="border: 2px #FFFFFF solid;width:100%" cellspacing="0" cellpadding="3" class="master"> 
+         <tbody> 
+          <tr style="background-color:#FFFFFF" class="titres"> 
+           <td align="center" colspan="3">Sujet</td> 
+           <td>Pg</td> 
+           <td>X</td> 
+           <td>Rep.</td> 
+           <td>Vues</td> 
+           <td>Cr&eacute;&eacute; par</td> 
+           <td>Dernier message</td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10454-0-CFCO-2009.htm" target="_parent">CFCO 2009</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">0</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">527</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">jeanluc</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10454-0-CFCO-2009.htm#vb">09/12/2008 23:51:22<br /><b>par jeanluc</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10427-0-Regionale-France-novembre-2008.htm" target="_parent">R&eacute;gionale 7 Ile-de-France 30 novembre 2008</a></td> 
+           <td class="colonne2" align="center" style="width:3%;"><a href="29408-2702-10427-1-Regionale-France-novembre-2008.htm" target="_parent"><b>2</b></a></td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">23</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">1308</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">simeric</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10427-0-Regionale-France-novembre-2008.htm#vb">05/12/2008 13:34:49<br /><b>par simeric</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10438-0-Rand-causse.htm" target="_parent">Rand'O du causse</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">3</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">353</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">Poussemoussu</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10438-0-Rand-causse.htm#vb">05/12/2008 07:58:03<br /><b>par FORZA CORREZE</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10362-0-Tomne-Savoie-2008.htm" target="_parent">O Tomne en Savoie 2008</a></td> 
+           <td class="colonne2" align="center" style="width:3%;"><a href="29408-2702-10362-3-Tomne-Savoie-2008.htm" target="_parent"><b>4</b></a></td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">70</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">4115</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">narbor</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10362-3-Tomne-Savoie-2008.htm#vb">02/12/2008 21:42:26<br /><b>par Annie</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon7.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10434-0-Rhone-Orientation-2008.htm" target="_parent">Rh&ocirc;ne Orientation 2008</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">8</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">749</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">zerocool</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10434-0-Rhone-Orientation-2008.htm#vb">23/11/2008 21:11:29<br /><b>par jf dechavanne</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10437-0-Cherche-voiture-pour-Fontainebleau.htm" target="_parent">Cherche voiture pour R&eacute;g 6 Fontainebleau (23/11)</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">4</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">282</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">Charly</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10437-0-Cherche-voiture-pour-Fontainebleau.htm#vb">18/11/2008 21:45:34<br /><b>par Charly</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10428-0-cristal-Boheme.htm" target="_parent">Cristal de Boh&egrave;me</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">0</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">363</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">alacourbe</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10428-0-cristal-Boheme.htm#vb">08/11/2008 11:47:51<br /><b>par alacourbe</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon10.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10351-0-Sprint-Nuit-Jours-Champagne-2008-dans-Marne.htm" target="_parent">CF Sprint &amp; CF Nuit - 2 Jours O'Champagne 2008 dans la Marne</a></td> 
+           <td class="colonne2" align="center" style="width:3%;"><a href="29408-2702-10351-7-Sprint-Nuit-Jours-Champagne-2008-dans-Marne.htm" target="_parent"><b>8</b></a></td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">153</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">8821</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">orienteur51</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10351-7-Sprint-Nuit-Jours-Champagne-2008-dans-Marne.htm#vb">04/11/2008 10:14:26<br /><b>par Guilhem</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10360-0-4eme-edition-Raid-Haut-Dimanche-octobre.htm" target="_parent">4&egrave;me &eacute;dition du Raid du Haut de l'Arc / Dimanche 26 octobre ...</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">7</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">509</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">tophe</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10360-0-4eme-edition-Raid-Haut-Dimanche-octobre.htm#vb">02/11/2008 18:33:50<br /><b>par tophe</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10409-0-championnat-regional-relais.htm" target="_parent">championnat r&eacute;gional de relais</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">2</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">268</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">jack</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10409-0-championnat-regional-relais.htm#vb">30/10/2008 09:27:25<br /><b>par jack</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10421-0-Combine-novembre.htm" target="_parent">Combin&eacute; CO-O'VTT 11 novembre</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">0</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">119</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">bemoz</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10421-0-Combine-novembre.htm#vb">28/10/2008 14:35:26<br /><b>par bemoz</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10382-0-AZIMUT-Edition-2008.htm" target="_parent">AZIMUT 92 - Edition 2008</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">17</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">1092</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">le_ruff</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10382-0-AZIMUT-Edition-2008.htm#vb">22/10/2008 18:03:12<br /><b>par le_ruff</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10395-0-Raid-individuel-Cancas-Aveyron-decembre.htm" target="_parent">Raid O' individuel Cancas, Sud Aveyron 14 d&eacute;cembre</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">2</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">266</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">saimiri</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10395-0-Raid-individuel-Cancas-Aveyron-decembre.htm#vb">14/10/2008 19:34:10<br /><b>par saimiri</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10404-0-Regionale-Rouquette.htm" target="_parent">R&eacute;gionale MP La Rouquette (12)</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">0</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">163</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">Rote</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10404-0-Regionale-Rouquette.htm#vb">14/10/2008 14:36:53<br /><b>par Rote</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10387-0-Silva-Night-novembre-Saint-Germain-Laye.htm" target="_parent">Silva Night le 22 novembre Saint Germain En Laye</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">1</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">297</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">uxmal</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10387-0-Silva-Night-novembre-Saint-Germain-Laye.htm#vb">22/09/2008 19:17:32<br /><b>par Eric_d_Orient_Alp</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon15.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10372-0-Poitiers.htm" target="_parent">21/09 Poitiers</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">1</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">241</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">Pascal86</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10372-0-Poitiers.htm#vb">22/09/2008 12:05:59<br /><b>par pascal86</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10368-0-SEPTEMBRE-2008-REGIONALE-FRANCE-FONTAINEBLEAU.htm" target="_parent">21 SEPTEMBRE 2008 REGIONALE 1 ILE DE FRANCE FONTAINEBLEAU</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">8</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">429</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">fazerman</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10368-0-SEPTEMBRE-2008-REGIONALE-FRANCE-FONTAINEBLEAU.htm#vb">22/09/2008 09:51:09<br /><b>par fazerman</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon7.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10381-0-2009-Orduna-Spain.htm" target="_parent">28-29.03.2009 Ordu&ntilde;a (Spain)</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">0</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">257</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">Abeille</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10381-0-2009-Orduna-Spain.htm#vb">17/09/2008 22:58:58<br /><b>par Abeille</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10380-0-decembre-2008-Raid-100%25.htm" target="_parent">7 decembre 2008 : JO2 = Raid 100% Co</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">0</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">165</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">babarse</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10380-0-decembre-2008-Raid-100%25.htm#vb">17/09/2008 22:44:33<br /><b>par babarse</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10142-0-SEMAINE-FEDERALE-2008-BRETAGNE.htm" target="_parent">SEMAINE FEDERALE 2008 en BRETAGNE</a></td> 
+           <td class="colonne2" align="center" style="width:3%;"><a href="29408-2702-10142-4-SEMAINE-FEDERALE-2008-BRETAGNE.htm" target="_parent"><b>5</b></a></td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">90</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">7863</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">Le_ruff</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10142-4-SEMAINE-FEDERALE-2008-BRETAGNE.htm#vb">16/09/2008 23:59:34<br /><b>par Guilhem</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon10.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10377-0-Sept-Regionale-Coye-Foret.htm" target="_parent">28 Sept R&eacute;gionale 2 IDF &agrave; Coye la For&ecirc;t</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">0</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">120</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">tinouphi</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10377-0-Sept-Regionale-Coye-Foret.htm#vb">16/09/2008 23:08:53<br /><b>par tinouphi</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10374-0-Raid-Orient-Alpin-2008.htm" target="_parent">Raid Orient'Alpin 2008</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">0</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">157</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">Eric_d_Orient_Alp</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10374-0-Raid-Orient-Alpin-2008.htm#vb">15/09/2008 18:33:20<br /><b>par Eric_d_Orient_Alp</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10364-0-Foret-Grands-Avaux-Champcueil.htm" target="_parent">For&ecirc;t des Grands Avaux Champcueil 91</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">0</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">149</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">jeanclaude</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10364-0-Foret-Grands-Avaux-Champcueil.htm#vb">08/09/2008 23:05:46<br /><b>par jeanclaude</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10359-0-Departementale-septembre-Grands-Avaux.htm" target="_parent">D&eacute;partementale du 14 septembre aux Grands Avaux (91)</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">0</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">93</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">20-100 COLLET</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10359-0-Departementale-septembre-Grands-Avaux.htm#vb">01/09/2008 21:40:29<br /><b>par 20-100 COLLET</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10077-0-Jours-Aveyron-2008.htm" target="_parent">6 Jours de l'Aveyron 2008</a></td> 
+           <td class="colonne2" align="center" style="width:3%;"><a href="29408-2702-10077-9-Jours-Aveyron-2008.htm" target="_parent"><b>10</b></a></td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">195</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">16101</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">djoudji</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10077-9-Jours-Aveyron-2008.htm#vb">28/08/2008 12:03:22<br /><b>par Teo</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10344-0-Championnats-monde-2012-Lausanne.htm" target="_parent">Championnats du monde en 2012 &agrave; Lausanne</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">2</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">296</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">Eric_d_Orient_Alp</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10344-0-Championnats-monde-2012-Lausanne.htm#vb">19/08/2008 09:20:45<br /><b>par Eric_d_Orient_Alp</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10254-0-jours-auvergne-2008.htm" target="_parent">3 jours d'auvergne 2008</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">13</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">1791</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">noir&acirc;me</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10254-0-jours-auvergne-2008.htm#vb">14/08/2008 17:08:13<br /><b>par lucky</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10342-0-voiturage-cfco.htm" target="_parent">co-voiturage 37 cfco</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">1</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">176</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">touf</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10342-0-voiturage-cfco.htm#vb">13/08/2008 12:00:50<br /><b>par touf</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon7.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10321-0-Hebergement-Jours-aveyron.htm" target="_parent">H&eacute;bergement sur les 6 Jours de L'aveyron (du 01/08 au 09/08)</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">1</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">284</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">JULIEN GARDEUR</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10321-0-Hebergement-Jours-aveyron.htm#vb">12/08/2008 10:15:55<br /><b>par Balizamor</b></a></span></td> 
+          </tr> 
+          <tr style="border: 1px #FFFFFF solid"> 
+           <td class="colonne1" align="center"><img src="img/rougedoss.gif" alt="1" /></td> 
+           <td class="colonne2" style="width:2%;"><img src="img/icon1.gif" alt="" /></td> 
+           <td class="colonne1" align="left" style="width:42%;"><a href="29408-2702-10340-0-Raid-BOMBIS-2008.htm" target="_parent">Raid BOMBIS 2008</a></td> 
+           <td class="colonne2" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne1" align="center" style="width:3%;">&nbsp;</td> 
+           <td class="colonne2" align="center" style="width:5%;"><span class="petit">0</span></td> 
+           <td class="colonne1" align="center" style="width:5%;"><span class="petit">154</span></td> 
+           <td class="colonne2" align="center" style="width:16%;">JeanLuc</td> 
+           <td class="colonne1" align="center" style="width:22%;"><span class="petit"><a target="_parent" href="29408-2702-10340-0-Raid-BOMBIS-2008.htm#vb">11/08/2008 09:21:24<br /><b>par JeanLuc</b></a></span></td> 
+          </tr> 
+         </tbody> 
+        </table> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <div class="petit" style="text-align:left"> 
+     <b>Pages :</b> 
+     <a href="29408-2702-0-Raid-BOMBIS-2008.htm" target="_parent">1</a> 
+     <a href="29408-2702-1-Raid-BOMBIS-2008.htm" target="_parent">2</a> 
+     <b>3</b> 
+     <a href="29408-2702-3-Raid-BOMBIS-2008.htm" target="_parent">4</a> 
+     <a href="29408-2702-4-Raid-BOMBIS-2008.htm" target="_parent">5</a> 
+     <a href="29408-2702-5-Raid-BOMBIS-2008.htm" target="_parent">6</a> 
+     <a href="29408-2702-6-Raid-BOMBIS-2008.htm" target="_parent">7</a> 
+     <a href="29408-2702-7-Raid-BOMBIS-2008.htm" target="_parent">8</a> 
+     <a href="29408-2702-8-Raid-BOMBIS-2008.htm" target="_parent">9</a> 
+     <a href="29408-2702-9-Raid-BOMBIS-2008.htm" target="_parent">10</a> 
+     <a href="29408-2702-10-Raid-BOMBIS-2008.htm" target="_parent">11</a> 
+     <a href="29408-2702-11-Raid-BOMBIS-2008.htm" target="_parent">12</a> 
+     <a href="29408-2702-12-Raid-BOMBIS-2008.htm" target="_parent">13</a> 
+     <a href="29408-2702-13-Raid-BOMBIS-2008.htm" target="_parent">14</a> 
+     <a href="29408-2702-14-Raid-BOMBIS-2008.htm" target="_parent">15</a> 
+    </div> 
+    <table style="width:100%" cellspacing="0" cellpadding="0" class="legend"> 
+     <tbody> 
+      <tr> 
+       <td style="width:80%"><img src="img/rougedoss.gif" alt="forum" /> : Nouveaux messages </td> 
+       <td rowspan="3" align="right"> 
+        <form action="/web/20090602011340/http://forum.aceboard.net/forum1.php" method="get"> 
+         <p> Aller &agrave; : <input type="hidden" name="login" value="29408" /> <select name="rub" class="box"><option value="0">Les favoris</option><option value="11">co-news</option><option value="2682">D&eacute;veloppement de la CO ?</option><option value="2702">Annonces de course</option><option value="2778">Raid et Orientation</option><option value="2779">O-VTT</option><option value="2780">O-Ski</option><option value="2322">D&eacute;fi Catching Features !</option><option value="2777">O-manager</option></select><input type="submit" value="Go" class="btn" /></p> 
+        </form> </td> 
+      </tr> 
+      <tr> 
+       <td style="width:45%"><img src="img/doss.gif" alt="forum" /> : Aucun nouveau message </td> 
+      </tr> 
+      <tr> 
+       <td style="width:45%"><img src="img/verrou.gif" alt="" /> : Sujet ferm&eacute;<br /><img src="img/partpic.gif" style="border:0" alt="" /> : Sujet que vous avez lu <br /><img src="img/partpic2.gif" style="border:0" alt="" /> : Sujet auquel vous avez post&eacute; un message </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+   </div> 
+   <p class="copyright"> <a href="/web/20090602011340/http://www.aceboard.fr/" target="_blank" title="Forum"><b>Ce forum pour votre site ?</b></a><br /> AceBoard <a href="/web/20090602011340/http://www.aceboard.fr/" target="_blank" title="Forum">Forum Gratuit</a> v 5.3<br /> Download Premium <a href="/web/20090602011340/http://www.boxedart.com/">Web Templates</a>! - <a href="/web/20090602011340/http://www.aceblog.fr/" title="creer un blog" target="_blank">blog gratuit</a> <br /> <a href="/web/20090602011340/http://www.xiti.com/xiti.asp?s=43304" target="_top"> <script language="JavaScript1.1">
+<!--
+hsh = new Date();
+hsd = document;
+hsr = hsd.referrer.replace(/[<>]/g, '');
+hsi = '<img width="39" height="25" border=0 ';
+hsi += 'src="http://logv10.xiti.com/hit.xiti?s=43304';
+hsi += '&p=14';
+hsi += '&hl=' + hsh.getHours() + 'x' + hsh.getMinutes() + 'x' + hsh.getSeconds();
+if(parseFloat(navigator.appVersion)>=4)
+{Xiti_s=screen;hsi += '&r=' + Xiti_s.width + 'x' + Xiti_s.height + 'x' + Xiti_s.pixelDepth + 'x' + Xiti_s.colorDepth;}
+hsd.writeln(hsi + '&ref=' + hsr.replace(/&/g, '$') + '" title="Mesurez votre audience">');
+//-->
+</script> 
+     <noscript> 
+      <img width="39" height="25" border="0" src="img/hit.xiti?s=43304&amp;p=14&amp;" title="Mesurez votre audience" /> 
+     </noscript></a><iframe name="pieddepage" src="/web/20090602011340/http://co.news.free.fr/forum/pub-forum.htm" height="120" width="100%" scrolling="no" allowtransparency="true" frameborder="0" border="0"></iframe></p> 
+   <!--
+     FILE ARCHIVED ON 1:13:40 Jun 2, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:20:19 Mar 17, 2013.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+--> 
+  </div>  
+ </body>
+</html>
